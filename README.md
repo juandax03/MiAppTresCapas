@@ -30,26 +30,21 @@ Para ejecutar este proyecto en tu máquina local, asegúrate de tener instalado 
 ### Clonar el Repositorio
 
 Clona el repositorio a tu máquina local usando Git:
-
-```bash
 git clone https://github.com/juandax03/MiAppTresCapas.git
+
 cd MiAppTresCapas
 Migraciones y Base de Datos
 Este proyecto utiliza Entity Framework Core para la gestión de la base de datos. Si es la primera vez que configuras la base de datos, sigue estos pasos:
 
 Ejecuta las migraciones para crear las tablas necesarias en tu base de datos:
-
-bash
-Copiar código
 dotnet ef database update
+
 Configura la cadena de conexión en el archivo appsettings.json si es necesario, apuntando a tu instancia de SQL Server.
 
 Ejecutar la Aplicación
 Una vez que el proyecto esté configurado correctamente, puedes ejecutarlo utilizando el siguiente comando:
-
-bash
-Copiar código
 dotnet run
+
 Operaciones CRUD
 La aplicación te guiará a través de menús interactivos donde podrás realizar operaciones de creación, consulta, modificación y eliminación sobre las entidades del sistema.
 
